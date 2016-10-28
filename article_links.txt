@@ -6,3 +6,6 @@ http://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_imgproc/p
 
 # color histograms
 http://docs.opencv.org/3.1.0/dd/d0d/tutorial_py_2d_histogram.html
+
+#indepth about color features
+http://lear.inrialpes.fr/people/vandeweijer/papers/thesis.pdf
