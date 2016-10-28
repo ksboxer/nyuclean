@@ -1,0 +1,9 @@
+root_directory: "..\\raw_data_versions"
+current_data_version_folder: "raw_data_10_14_16"
+
+internal_folder: "SDMC_photo_collection"
+
+photo_folder: "photos"
+score_folder: "Scores"
+
+score_excel_file: "Scores.xlsx"
