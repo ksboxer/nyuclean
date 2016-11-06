@@ -9,3 +9,7 @@ http://docs.opencv.org/3.1.0/dd/d0d/tutorial_py_2d_histogram.html
 
 #indepth about color features
 http://lear.inrialpes.fr/people/vandeweijer/papers/thesis.pdf
+
+#color feature reference
+http://conf.uni-obuda.hu/sami2007/42_Sergyan.pdf
+

@@ -20,14 +20,10 @@ class FeatureGenerator():
 		logging.debug(features_to_process)
 
 		for feature in features_to_process:
-			for location in self.pic_listing.keys():
-				for settings in self.pic_listing[location]:
-					if 'jpg_paths' in self.pic_listing[location][settings]:
-						for idx,jpg_path in enumerate(self.pic_listing[location][settings]['jpg_paths'].keys()):
-							print(('{} out of {}').format(idx, len(self.pic_listing[location][settings]['jpg_paths'].keys())))
-							#jpg_path = jpg_path.encode('ascii', 'ignore')
-							#print(jpg_path)
-							logging.debug(jpg_path)
-							feature_value = feature_map.getFeature(jpg_path, feature)
-							self.pic_listing[location][settings]['jpg_paths'][jpg_path][feature] = feature_value
+			for file in self.pic_listing['data']:
+				logging.debug(file)
+				if 'path' in file.keys():
+					path = file['path']		
+					feature_value = feature_map.getFeature(path, feature)
+					file[feature] = feature_value
 		return self.pic_listing
