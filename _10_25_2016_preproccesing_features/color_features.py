@@ -24,7 +24,7 @@ class GreyScaleHistogram():
 		img = cv2.imread(path,0)
 		if img != None:
 			hist, edges = numpy.histogram(img, bins=16, density = True)
-			return hist
+			return list(hist)
 
 
 		#logging.debug(hsv)
