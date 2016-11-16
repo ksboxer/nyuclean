@@ -7,3 +7,5 @@ pkl_file_location: None
 features:
   hsv_color_histogram: True
   gray_color_histogram: True
+  dirt_feature_processing: True
+
