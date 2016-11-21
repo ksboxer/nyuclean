@@ -5,7 +5,8 @@ modify_previous_feature: True
 pkl_file_location: None
 
 features:
+  dirt_feature_processing: True
+  nine_region_dirt: True
   hsv_color_histogram: True
   gray_color_histogram: True
-  dirt_feature_processing: True
 

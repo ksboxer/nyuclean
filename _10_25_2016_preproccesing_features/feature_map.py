@@ -4,7 +4,8 @@ import dirt_features
 feature_map = {
 	'hsv_color_histogram': color_features.HsvColorHistogram(),
 	'gray_color_histogram': color_features.GreyScaleHistogram(),
-	'dirt_feature_processing': dirt_features.FourRegionDirtDetection()
+	'dirt_feature_processing': dirt_features.FourRegionDirtDetection(),
+	'nine_region_dirt': dirt_features.NineRegionDirtDetection()
 	}
 
 def getFeature(path, feature_name):

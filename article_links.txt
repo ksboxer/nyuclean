@@ -13,3 +13,7 @@ http://lear.inrialpes.fr/people/vandeweijer/papers/thesis.pdf
 #color feature reference
 http://conf.uni-obuda.hu/sami2007/42_Sergyan.pdf
 
+# detecting dirt on egg surface
+http://ps.oxfordjournals.org/content/84/10/1653.full.pdf
+
+
